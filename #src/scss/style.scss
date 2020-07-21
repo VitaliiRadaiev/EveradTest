@@ -395,9 +395,7 @@
 		}
 	}
 }
-.form-header {
-	width: 271px;
-}
+
 .photoSet-header {
 	position: absolute;
 	top: 0;
@@ -515,6 +513,7 @@
 			position: relative;
 			text-align: center;
 			background: #fff;
+			width: 271px;
 
 			&::after {
 				position: absolute;
@@ -719,6 +718,7 @@
 
 				& img {
 					margin-left: 7px;
+					margin: 4px;
 				}
 
 				&::before, &::after {
